@@ -1,0 +1,15 @@
+cloud:
+  aws:
+    region:
+      static: us-east-1
+      auto: false
+    credentials:
+      access-key: my-access-key
+      secret-key: my-secret-key
+    queue:
+      max-number-messages: 10
+      wait-time-out: 20
+      core-pool-size: 44
+      max-pool-size: 44
+      uri: https://sqs.us-east-1.amazonaws.com/975237234548/test
+
